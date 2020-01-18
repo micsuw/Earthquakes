@@ -7,7 +7,6 @@ import lombok.*;
 import java.util.List;
 
 @Builder
-@EqualsAndHashCode
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @JsonIgnoreProperties(ignoreUnknown = true)
